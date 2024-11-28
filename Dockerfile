@@ -1,4 +1,4 @@
-ARG COUCHBASE_TAG=enterprise-7.2.3
+ARG COUCHBASE_TAG=enterprise-7.6.3
 FROM couchbase:${COUCHBASE_TAG}
 
 # Configure apt-get for NodeJS
